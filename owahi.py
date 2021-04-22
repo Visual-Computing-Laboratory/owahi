@@ -30,7 +30,7 @@ def PrintTimestamp(dt):
 #	str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + " " + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "." + str(dt.microsecond) + " " + dt.astimezone().tzname()) 
 
 def PrintErrorMsg():
-	print(f"{bcolors.BOLD}NAMA{bcolors.ENDC}")
+	print(f"{bcolors.BOLD}NAMA PROGRAM{bcolors.ENDC}")
 	print(f"\t{bcolors.BOLD}owahi.py{bcolors.ENDC} -- aplikasi konversi resolusi dan frame-rate gambar bergerak\n")
 	print(f"{bcolors.BOLD}PENGGUNAAN{bcolors.ENDC}")
 	print(f"\towahi.py <{bcolors.BOLD}file-masukan{bcolors.ENDC}> <{bcolors.BOLD}file-keluaran{bcolors.ENDC}> <{bcolors.BOLD}resolusi{bcolors.ENDC}> <{bcolors.BOLD}frame-rate{bcolors.ENDC}>\n")
